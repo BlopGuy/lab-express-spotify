@@ -1,0 +1,10 @@
+<h1>Albums for</h1>
+<ul>
+    {{#each albumList}}
+    <li>
+        <img src="{{images.2.url}}" alt="album-image">
+        <h3>{{name}}</h3>
+        <a href="/tracks/{{id}}">View Tracks</a>
+    </li>
+    {{/each}}
+</ul>
